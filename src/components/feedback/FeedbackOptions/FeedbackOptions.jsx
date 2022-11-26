@@ -16,26 +16,3 @@ FeedbackOptions.propTypes = {
   options: PropTypes.array.isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
-
-// export const FeedbackOptions = ({
-//   onHandleClickGood,
-//   onHandleClickNeutral,
-//   onHandleClickBad,
-// }) => (
-//   <ButtonContainer>
-//     <Button type="button" onClick={onHandleClickGood}>
-//       Good
-//     </Button>
-//     <Button type="button" onClick={onHandleClickNeutral}>
-//       Neutral
-//     </Button>
-//     <Button type="button" onClick={onHandleClickBad}>
-//       Bad
-//     </Button>
-//   </ButtonContainer>
-// );
-// FeedbackOptions.propTypes = {
-//   onHandleClickGood: PropTypes.func.isRequired,
-//   onHandleClickNeutral: PropTypes.func.isRequired,
-//   onHandleClickBad: PropTypes.func.isRequired,
-// };
