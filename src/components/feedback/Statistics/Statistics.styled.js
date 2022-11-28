@@ -5,6 +5,7 @@ export const StatisticsList = styled.ul`
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  
 `;
 export const StatisticsItem = styled.li`
   font-size: 28px;

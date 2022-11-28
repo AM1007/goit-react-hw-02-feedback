@@ -37,18 +37,7 @@ export class App extends Component {
   render() {
     const { good, neutral, bad } = this.state;
     return (
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          fontSize: 40,
-          color: '#010101',
-          padding: 30,
-          gap: 20,
-        }}
-      >
+      <div>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
